@@ -4,10 +4,10 @@ import AdminLogin from './admin/AdminLogin';
 import Navbar from './component/Navbar';
 import UserLogin from './login/UserLogin';
 import About from './page/About';
-import Bookings from './page/Bookings';
 import Contact from './page/Contact';
 import Home from './page/Home';
 import Login from './page/Login';
+import Sports from './sports/Sports';
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/bookings" element={<Bookings />} />
+          <Route path="/sports" element={<Sports />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />

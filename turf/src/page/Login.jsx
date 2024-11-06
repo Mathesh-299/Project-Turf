@@ -6,7 +6,7 @@ const Login = () => {
     const [selectedRole, setSelectedRole] = useState(null); // State to keep track of the selected role (Admin or User)
 
     return (
-        <div className="flex justify-center items-center min-h-screen bg-blue-400">
+        <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-slate-800 to-red-500">
             <div className="bg-white p-8 rounded-xl shadow-xl w-full max-w-md">
                 <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-8">TurfHub</h2>
 
