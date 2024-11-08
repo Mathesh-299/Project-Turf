@@ -3,10 +3,7 @@ import { FaUserCircle } from 'react-icons/fa';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-    // State to manage mobile menu visibility
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    // Toggle the mobile menu
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
